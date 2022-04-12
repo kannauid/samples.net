@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ns0:OrderList xmlns:ns0="https://example.com/">
+  <Orders>
+    <Order IsFullfilled="true">
+      <OrderId>1</OrderId>
+      <OrderItems>
+        <OrderItem>P1</OrderItem>
+        <OrderItem>P2</OrderItem>
+        <OrderItem>P3</OrderItem>
+      </OrderItems>
+      <Total>100</Total>
+    </Order>
+    <Order IsFullfilled="false">
+      <OrderId>2</OrderId>
+      <OrderItems>
+        <OrderItem>P3</OrderItem>
+        <OrderItem>P4</OrderItem>
+        <OrderItem>P5</OrderItem>
+      </OrderItems>
+      <Total>200</Total>
+    </Order>
+    <Order IsFullfilled="true">
+      <OrderId>2</OrderId>
+      <OrderItems>
+        <OrderItem>P6</OrderItem>
+        <OrderItem>P7</OrderItem>
+        <OrderItem>P8</OrderItem>
+      </OrderItems>
+      <Total>300</Total>
+    </Order>
+  </Orders>
+</ns0:OrderList>

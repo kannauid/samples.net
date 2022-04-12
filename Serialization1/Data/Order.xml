@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ns0:Order IsFullfilled="true" xmlns:ns0="https://example.com/">
+  <OrderId>1</OrderId>
+  <OrderItems>
+    <OrderItem>P1</OrderItem>
+    <OrderItem>P2</OrderItem>
+    <OrderItem>P3</OrderItem>
+  </OrderItems>
+  <Total>100</Total>
+</ns0:Order>

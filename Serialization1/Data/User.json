@@ -1,0 +1,6 @@
+﻿{
+  "Name": "user1",
+  "Age": 12,
+  "IsActive": true,
+  "EmailAddresses": [ "user1-a@example.com", "user1-b@example.com", "user1-c@example.com" ]
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<User IsActive="true">
+  <Name>user1</Name>
+  <Age>12</Age>
+  <EmailAddresses>
+    <EmailAddress>user1-a@example.com</EmailAddress>
+    <EmailAddress>user1-b@example.com</EmailAddress>
+    <EmailAddress>user1-c@example.com</EmailAddress>
+  </EmailAddresses>
+</User>

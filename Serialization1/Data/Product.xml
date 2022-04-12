@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ns1:Product IsDiscontinued="false" Stock="1100" xmlns:ns1="https://example.com/">
+  <ProductId>1</ProductId>
+  <ProductName>P1</ProductName>
+  <ProductDescription>
+    <![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+              <ns0:ProductModel IsPro="true" xmlns:ns0="https://example.com/">
+                <ProductCode>1</ProductCode>
+                <ProductColors>
+                  <ProductColor>Red</ProductColor>
+                  <ProductColor>Green</ProductColor>
+                  <ProductColor>Blue</ProductColor>
+                </ProductColors>
+                <ProductPrice>100</ProductPrice>
+              </ns0:ProductModel>
+  ]]>
+  </ProductDescription>
+</ns1:Product>
+
+

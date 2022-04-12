@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>3a0ed13d-bc57-4302-8e20-632a6c6ba1a2</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Order.xml" />
+    <None Remove="Data\Orders.xml" />
+    <None Remove="Data\Product.xml" />
+    <None Remove="Data\User.xml" />
+    <None Remove="Data\Users.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Product.xml" />
+    <Content Include="Data\Order.xml" />
+    <Content Include="Data\User.xml" />
+    <Content Include="Data\Orders.xml" />
+    <Content Include="Data\Users.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

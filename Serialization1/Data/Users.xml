@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UsersList>
+  <Users>
+    <User IsActive="true">
+      <Age>12</Age>
+      <EmailAddresses>
+        <EmailAddress>user1-a@example.com</EmailAddress>
+        <EmailAddress>user1-b@example.com</EmailAddress>
+        <EmailAddress>user1-c@example.com</EmailAddress>
+      </EmailAddresses>
+      <Name>user1</Name>
+    </User>
+    <User IsActive="true">
+      <Age>11</Age>
+      <EmailAddresses>
+        <EmailAddress>user2-a@example.com</EmailAddress>
+        <EmailAddress>user2-b@example.com</EmailAddress>
+        <EmailAddress>user2-c@example.com</EmailAddress>
+      </EmailAddresses>
+      <Name>user2</Name>
+    </User>
+    <User IsActive="true">
+      <Age>13</Age>
+      <EmailAddresses>
+        <EmailAddress>user3-a@example.com</EmailAddress>
+        <EmailAddress>user3-b@example.com</EmailAddress>
+        <EmailAddress>user3-c@example.com</EmailAddress>
+      </EmailAddresses>
+      <Name>user3</Name>
+    </User>
+  </Users>
+</UsersList>
